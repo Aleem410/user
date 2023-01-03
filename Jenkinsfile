@@ -6,7 +6,6 @@ pipeline {
        echo 'code quality'
      }
    }
-
    stage('Test cases'){
      steps {
        echo 'Test cases'
